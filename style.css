@@ -1,101 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
-
 body {
-  margin: 0;
-  padding: 0;
   font-family: 'Press Start 2P', cursive;
-  background: linear-gradient(to bottom, #ffa500, #ff6f00);
-  color: #000;
-  padding: 30px;
-  
 }
 
-
-.container {
-  max-width: 900px;
-  margin: auto;
-  padding: 20px;
-  background-color: transparent; /* sem borda */
-}
-
-header {
-  text-align: center;
-  margin-bottom: 30px;
-}
-
-header h1 {
-  font-size: 24px;
-  color: #fff;
-  margin-bottom: 15px;
+.text-shadow {
   text-shadow: 2px 2px #000;
 }
 
-header img {
-  width: 100%;
-  max-height: 180px;
-  object-fit: cover;
-  border-radius: 10px;
-  border: none;
+h1 {
+  font-size: 28px;
 }
 
-section {
-  margin-bottom: 30px;
+ul {
+  padding-left: 10px;
 }
 
-label {
-  display: block;
-  margin: 10px 0 5px;
-}
-
-input, select {
-  width: 100%;
-  padding: 10px;
-  font-size: 14px;
-  border-radius: 5px;
-  border: none;
-  background-color: #fff;
-  font-family: 'Press Start 2P', cursive;
-}
-
-button {
-  width: 100%;
-  padding: 12px;
-  background-color: #ff3300;
-  color: #fff;
-  font-size: 14px;
-  border: none;
-  border-radius: 10px;
-  margin-top: 10px;
-  cursor: pointer;
-  transition: background-color 0.3s;
-  font-family: 'Press Start 2P', cursive;
-}
-
-button:hover {
-  background-color: #cc2900;
-}
-
-.columns {
-  display: flex;
-  justify-content: space-between;
-  gap: 20px;
-  flex-wrap: wrap;
-}
-
-.box {
-  flex: 1;
-  background-color: #ffffffd9;
-  padding: 15px;
-  height: 200px;
-  overflow-y: auto;
-  border-radius: 15px;
-  box-shadow: 4px 4px #000;
-}
-
-h2 {
-  font-size: 12px;
-  color: #000;
-  margin-top: 0;
-  text-align: center;
-  text-transform: uppercase;
-}
